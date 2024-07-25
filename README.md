@@ -17,7 +17,7 @@ Installation
 Clone the Repository:
 
 git clone https://github.com/jnordberg1/NYC-Taxi-Data.git
-cd your-repository
+cd NYC-Taxi_data
 Set Up a Virtual Environment:
 
 python -m venv venv
@@ -37,6 +37,9 @@ Update Configuration:
 Modify the pipeline.py script to update database connection details if needed.
 
 Running the Pipeline
+Download Data:
+Run download_data.py
+
 Prepare Data:
 
 Place your NYC taxi trip data in Parquet format in the data/ directory.
